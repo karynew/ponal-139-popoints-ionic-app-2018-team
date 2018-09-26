@@ -16,6 +16,11 @@
 // automatically applied to the <body> element in the app.
 
 $white:#ffffff;
+$greenTittle:#015656;
+
+h2{
+	margin-top: 1.8rem;
+}
 
 ion-app.md [padding] {
     padding: 16px;
@@ -25,8 +30,13 @@ ion-app.md [padding] {
     width: 100%;
 }
 
+green{
+	color:$greenTittle;
+}
+
 red{
  background-color:#dc676e;
+ color:$white;
 }
 
 green{
