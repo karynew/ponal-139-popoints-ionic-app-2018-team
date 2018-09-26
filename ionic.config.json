@@ -1,0 +1,7 @@
+{
+  "name": "ponal-139-popoints-ionic-2018-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
