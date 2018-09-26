@@ -1,9 +1,10 @@
 page-welcome {
+
   .splash-bg {
     position: relative;
-    background: url('../assets/img/splashbg.png') no-repeat transparent;
+    background: url('../assets/img/bg-app-popoints.png') no-repeat transparent;
     background-size: cover;
-    height: 45%;
+    height: 100%;
     z-index: 1;
     background-repeat: repeat-x;
     animation: animatedBackground 40s linear infinite;
@@ -13,19 +14,26 @@ page-welcome {
     from { background-position: 0 0; }
     to { background-position: 100% 0; }
   }
-
   .splash-info {
     position: relative;
     z-index: 2;
-    margin-top: -64px;
+    margin-top: -460px;
     text-align: center;
   }
   .splash-logo {
     margin: auto;
-    background: url('../assets/img/appicon.png') repeat transparent;
+    background: url('../assets/img/logo-popoints.svg') repeat transparent;
     background-size: 100%;
-    width: 128px;
-    height: 128px;
+    width: 280px;
+    height: 250px;
+    background-position: 0% 24%;
+  }
+  .splash-symbol{
+    margin: auto;
+    background: url('../assets/img/symbol-popoints_03.png') repeat transparent;
+    background-size: 100%;
+    width: 120px;
+    height: 120px;
   }
   .splash-intro {
     font-size: 18px;
