@@ -5,7 +5,13 @@ page-tutorial {
   }
 
   .slide-zoom {
-    height: 100%;
+    height: 70%;
+    background:$white;
+    width:90%;
+    border-radius:20px;
+    padding:20px;
+    min-width: 300px;
+
   }
 
   .slide-title {
@@ -13,9 +19,9 @@ page-tutorial {
   }
 
   .slide-image {
-    max-height: 40%;
-    max-width: 60%;
-    margin: 36px 0;
+    max-height: 30%;
+    max-width: 50%;
+    margin: 0px 0;
   }
 
   b {
@@ -32,5 +38,31 @@ page-tutorial {
       color: #000000;
     }
   }
+
+  .scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#139980+0,4fd194+100 */
+    background: #139980; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #139980 0%, #4fd194 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #139980 0%,#4fd194 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #139980 0%,#4fd194 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#139980', endColorstr='#4fd194',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #fa676f;
+      opacity: 1;
+    }
 
 }
