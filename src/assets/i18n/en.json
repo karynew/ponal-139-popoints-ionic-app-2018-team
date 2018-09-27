@@ -14,8 +14,9 @@
 
   "MAP_TITLE": "Map",
 
-  "TUTORIAL_SKIP_BUTTON": "Skip",
+  "TUTORIAL_SKIP_BUTTON": "Siguiente",
   "TUTORIAL_CONTINUE_BUTTON": "Continue",
+  "TUTORIAL_NEXT_BUTTON": "Saltar",
 
   "TUTORIAL_SLIDE1_TITLE": "¿Cómo funciona?",
   "TUTORIAL_SLIDE1_DESCRIPTION": "Recoge el popó de tu mascota y empieza a ganar POPOINTS",

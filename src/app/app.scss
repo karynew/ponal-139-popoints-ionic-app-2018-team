@@ -17,12 +17,13 @@
 
 $white:#ffffff;
 $greenTittle:#015656;
+$redButton:#dc676e;
 
 h2{
 	margin-top: 1.8rem;
 }
 
-ion-app.md [padding] {
+.ion-app.md [padding] {
     padding: 16px;
     margin-top: -100px;
     z-index: 6;
@@ -30,18 +31,6 @@ ion-app.md [padding] {
     width: 100%;
 }
 
-green{
-	color:$greenTittle;
-}
-
-red{
- background-color:#dc676e;
- color:$white;
-}
-
-green{
-	
-}
 
 .button-md {
     border-radius: 2px;
