@@ -21,17 +21,19 @@ $redButton:#dc676e;
 $redDark:#d50129;
 $greenDark:#0c5657;
 
+
 h2{
 	margin-top: 1.8rem;
 }
 
-ion-app.md [padding] {
+.ion-app.md [padding] {
     padding: 16px;
     margin-top: -100px;
     z-index: 6;
     position: absolute;
     width: 100%;
 }
+
 
 .btn-m{
     width:50%; 
@@ -58,6 +60,7 @@ ion-app.md [padding] {
      padding:20px;
      border-radius:5px;
 }
+
 
 
 

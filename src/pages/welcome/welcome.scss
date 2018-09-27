@@ -1,5 +1,11 @@
 page-welcome {
 
+  ion-app.md [padding] {
+    padding: 16px;
+    position: relative;
+    z-index: 6;
+}
+
   .splash-bg {
     position: relative;
     background: url('../assets/img/bg-app-popoints.png') no-repeat transparent;
