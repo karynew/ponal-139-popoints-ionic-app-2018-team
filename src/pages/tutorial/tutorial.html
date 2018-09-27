@@ -19,8 +19,9 @@
     </ion-slide>
   </ion-slides>
   <ion-navbar>
-    <ion-buttons end *ngIf="showSkip">
-      <button ion-button red block (click)="startApp()" color="red">{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>
+    <ion-buttons class="btn-slider" end *ngIf="showSkip">
+      <button   class="red btn-m" ion-button red block (click)="startApp()" color="red">{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>
+       <button class="green btn-m" ion-button red block (click)="startApp()" color="red">{{ 'TUTORIAL_NEXT_BUTTON' | translate}}</button>
     </ion-buttons>
   </ion-navbar>
 </ion-content>

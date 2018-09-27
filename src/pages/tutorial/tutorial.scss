@@ -8,7 +8,7 @@ page-tutorial {
     ion-slides {
         display: block;
         width: 100%;
-        height: 70%;
+        height: 66%;
     }
 
   .splash-logo {
@@ -24,7 +24,7 @@ page-tutorial {
   }
 
   .slide-zoom {
-    height: 70%;
+    height: 60vh;
     background:$white;
     width:90%;
     border-radius:20px;
@@ -39,6 +39,9 @@ page-tutorial {
     margin-top: 2rem;
     color:$greenTittle;
     font-size:2rem;
+    width: 100%;
+    border: none;
+    padding: 0px;
   }
 
   .slide-image {
@@ -52,7 +55,7 @@ page-tutorial {
   }
 
   p {
-    padding: 0 40px;
+    padding: 0 0px;
     font-size: 14px;
     line-height: 1.5;
     color: #60646B;
@@ -90,7 +93,7 @@ page-tutorial {
 
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
     left: 0;
-    bottom: 150px;
+    bottom: 30px;
     width: 100%;
     }
 

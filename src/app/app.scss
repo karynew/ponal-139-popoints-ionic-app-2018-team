@@ -17,6 +17,9 @@
 
 $white:#ffffff;
 $greenTittle:#015656;
+$redButton:#dc676e;
+$redDark:#d50129;
+$greenDark:#0c5657;
 
 h2{
 	margin-top: 1.8rem;
@@ -30,18 +33,33 @@ ion-app.md [padding] {
     width: 100%;
 }
 
-green{
+.btn-m{
+    width:50%; 
+    
+}
+
+.btn-slider{
+    width:100%;
+    display: flex;
+    padding:10px;
+}
+.green{
 	color:$greenTittle;
+    background-color:$white; 
+    border-bottom:4px solid $greenDark;
+    padding:20px;
+    border-radius:5px;
 }
 
-red{
- background-color:#dc676e;
- color:$white;
+.red{
+     background-color:$redButton;
+     color:$white;
+     border-bottom:4px solid $redDark;
+     padding:20px;
+     border-radius:5px;
 }
 
-green{
-	
-}
+
 
 .button-md {
     border-radius: 2px;
