@@ -1,0 +1,13 @@
+page-dog-signup {
+    #inputFile {
+		.label {
+			padding: 10px;
+			background: red;
+			display: table;
+			color: #fff;
+		}
+		.input[type="file"] {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>dog-signup</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+<ion-content padding>
+  <ion-title>
+    <h2>Datos de tu mascota</h2>
+  </ion-title>
+  <form>
+    <ion-list>
+      <ion-item id="inputFile">
+        <ion-label>Foto de mi perro</ion-label>
+        <ion-input type="file"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label floating>Nombre de mi perro:</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label floating>Peso</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label floating>Edad</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+      <ion-label>Tamaño</ion-label>
+        <ion-select [(ngModel)]="tamano">
+            <ion-option value="p">Pequeño</ion-option>
+            <ion-option value="m">Mediano</ion-option>
+            <ion-option value="g">Grande</ion-option>
+        </ion-select>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label floating>Cumpleaños</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label floating>Número de placa</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+  
+    </ion-list>	
+  </form>
+</ion-content>

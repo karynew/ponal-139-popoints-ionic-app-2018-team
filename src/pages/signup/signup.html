@@ -1,23 +1,26 @@
-<ion-header>
+<!-- <ion-header>
 
   <ion-navbar>
     <ion-title>{{ 'SIGNUP_TITLE' | translate }}</ion-title>
   </ion-navbar>
 
-</ion-header>
+</ion-header> -->
 
 
 <ion-content>
+  <ion-title>
+    <h2>Datos del amo</h2>
+  </ion-title>
   <form (submit)="doSignup()">
     <ion-list>
 
       <ion-item>
-        <ion-label fixed>{{ 'NAME' | translate }}</ion-label>
+        <ion-label floating>{{ 'NAME' | translate }} del amo</ion-label>
         <ion-input type="text" [(ngModel)]="account.name" name="name"></ion-input>
       </ion-item>
 
       <ion-item>
-        <ion-label fixed>{{ 'EMAIL' | translate }}</ion-label>
+        <ion-label floating>{{ 'EMAIL' | translate }}</ion-label>
         <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
       </ion-item>
 
@@ -31,8 +34,18 @@
       -->
 
       <ion-item>
-        <ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>
+        <ion-label floating>{{ 'PASSWORD' | translate }}</ion-label>
         <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Confirmar {{ 'PASSWORD' | translate }}</ion-label>
+        <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Autorizo el tratamiento de mis datos personales</ion-label>
+        <ion-checkbox></ion-checkbox>
       </ion-item>
 
       <div padding>
